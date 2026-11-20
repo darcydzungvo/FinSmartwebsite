@@ -32,7 +32,14 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{letter-spacing:-.035em;line-height:1.1}p{line-h
 .hero-shell{display:flex;align-items:center;min-height:460px}
 .hero-copy{width:min(570px,57%);padding:52px 0 62px}
 .eyebrow{display:block;color:#e0ecdf;background:none;font-size:12px;letter-spacing:.13em;font-weight:800;margin-bottom:15px;padding:0}
-.hero h1{color:#fff;font-size:clamp(40px,4.2vw,62px);line-height:1.08;letter-spacing:-.045em;margin-bottom:18px}
+.hero h1 {
+  color: #fff;
+  font-size: clamp(36px, 3.5vw, 54px);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  margin-bottom: 18px;
+  max-width: 750px;
+}
 .hero h1 span{color:var(--lime)}
 .hero-text{color:#e5eee7;font-size:16px;line-height:1.65;max-width:500px;margin-bottom:24px}
 .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
