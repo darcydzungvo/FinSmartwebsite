@@ -134,3 +134,27 @@ h3{font-size:20px;color:var(--ink);margin-bottom:10px}
   text-decoration: underline;
 }
 
+.impact-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.impact-actions .button {
+  min-width: 275px;
+}
+
+.contact-email {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.contact-email:hover {
+  color: #d6ee87;
+  text-decoration: underline;
+}
+
