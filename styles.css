@@ -122,3 +122,15 @@ h3{font-size:20px;color:var(--ink);margin-bottom:10px}
 .desktop-cta{display:none !important}
 .hero-copy .hero-text{margin-bottom:0}
 .impact-actions .button{min-width:220px}
+
+.contact-email {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.contact-email a {
+  color: #d6ee87;
+  text-decoration: underline;
+}
+
